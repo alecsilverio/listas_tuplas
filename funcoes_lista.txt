@@ -1,0 +1,48 @@
+append() → adiciona no final
+lista.append(4)  # [1, 2, 3, 4]
+
+insert() → adiciona em uma posição específica
+lista.insert(1, 10)  # [1, 10, 2, 3, 4]
+
+extend() → adiciona vários elementos
+ista.extend([5, 6])  # [1, 10, 2, 3, 4, 5, 6]
+
+remove() → remove o primeiro valor igual
+lista.remove(10)  # [1, 2, 3, 4, 5, 6]
+
+pop() → remove por posição (ou o último)
+lista.pop()     # Remove o último
+lista.pop(0)    # Remove o primeiro
+
+clear() → limpa toda a lista
+lista.clear()  # []
+
+sort() → ordena em ordem crescente (altera a lista)
+lista.sort()
+
+sort(reverse=True) → ordem decrescente
+lista.sort(reverse=True)
+
+reverse() → inverte a ordem dos elementos
+lista.reverse()
+
+sorted(lista) → ordena sem alterar a original
+nova_lista = sorted(lista)
+
+in → verifica se contém
+3 in lista  # True ou False
+
+index() → retorna o índice do primeiro valor igual
+lista.index(3)  # ex: 0
+
+count() → conta quantas vezes aparece um valor
+lista.count(3)
+
+len()  # Tamanho da lista
+len(lista)  # quantidade de elemento
+
+Laços com lista
+for item in lista:
+    print(item)
+
+    
